@@ -25,8 +25,8 @@ export const ResultContextProvider = ({ children }) => {
 
     if (type.includes("/news")) {
       setResults(data.entries);
-    } else if (type.includes("/images")) {
-      setResults(data.images_results);
+    } else if (type.includes("/image")) {
+      setResults(data.image_results);
     } else {
       setResults(data.results);
     }
