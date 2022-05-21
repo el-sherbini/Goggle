@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Goggle
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Goggle is an application to use an API to get google search results, built with React, ContextAPI and [_Google Search_](https://rapidapi.com/apigeek/api/google-search3/) API.
+>  Live demo [_here_](https://goggle-application.netlify.app/).
 
-## Available Scripts
+## Installation and Setup Instructions
 
-In the project directory, you can run:
+Clone down this repository. You will need `node` and `npm` installed globally on your machine.
 
-### `npm start`
+### Installation:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Clone the repo:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```sh
+git clone https://github.com/el-sherbini/Goggle.git
+```
 
-### `npm test`
+Run terminal command:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```sh
+npm install
+```
 
-### `npm run build`
+### Enter your Environment Variable in `.env` file, you can get one from [_here_](https://rapidapi.com/apigeek/api/google-search3/).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```sh
+REACT_APP_API_KEY =  'ENTER YOUR RAPIDAPI KEY'
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### To Start Server:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```sh
+npm start
+```
 
-### `npm run eject`
+### To Visit App:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```sh
+localhost:3000
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Technologies Used
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- React.js
+- ContextAPI
+- Tailwind CSS
+- react-loader-spinner
+- react-player
+- RapidAPI [__Google Search API__](https://rapidapi.com/apigeek/api/google-search3/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Features
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Responsive layout
+- Light Mode & Dark Mode
+- Get search results (total - news - images - videos)
