@@ -15,10 +15,10 @@ export const Links = () => (
         className="m-2 mb-0"
         key={index}
         to={url}
-        // activeStyle={{
-        //   fontWeight: "bold",
-        //   color: "red",
-        // }}
+        activeStyle={{
+          fontWeight: "bold",
+          color: "red",
+        }}
       >
         {text}
       </NavLink>
