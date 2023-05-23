@@ -1,7 +1,6 @@
 # Goggle
 
 > Goggle is an application to use an API to get google search results, built with React, ContextAPI and [_Google Search_](https://rapidapi.com/apigeek/api/google-search3/) API.
->  Live demo [_here_](https://goggle-application.netlify.app/).
 
 ## Installation and Setup Instructions
 
